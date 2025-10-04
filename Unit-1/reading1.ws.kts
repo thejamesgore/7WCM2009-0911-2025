@@ -146,7 +146,7 @@ abs(-459.67, - 32.0)
  *   calculation.
  */
 
-// TODO
+fun absRev(a: Double, b: Double):  Double = a + b
 
 /* - ▷ Test your inverse function in combination with the original.
  */
@@ -168,7 +168,7 @@ abs(-459.67, - 32.0)
  *    `kotlin.math.sqrt(121.0)  // Takes and returns a Double`
  */
 
-// TODO
+kotlin.math.sqrt(121.0)
 
 /*    How is sqrt coded – how does it work inside? The relevant answer for this
  *    exercise: we don’t know and it doesn’t matter. As a user of this
@@ -184,7 +184,10 @@ abs(-459.67, - 32.0)
  *    c=13.
  */
 
-// TODO
+fun pythag(a: Double, b: Double): Double = kotlin.math.sqrt((a*a)+(b*b))
+
+pythag(3.0,4.0)
+
 
 /*    - ▷ If you did not already, write a modified version of your sq function
 *       (from the earlier examples/exercises) that takes and returns a
@@ -193,7 +196,10 @@ abs(-459.67, - 32.0)
 *       square operations
 */
 
-// TODO
+fun sqr2(a: Double): Double = a*a 
+fun pythag2(a: Double, b:Double): Double = kotlin.math.sqrt(sqr2(a)+sqr2(b))
+
+pythag2(3.0,4.0)
 
 /* End Ex. 3.2
  *************/
@@ -212,7 +218,7 @@ abs(-459.67, - 32.0)
  * performs the calculation as above.
  */
 
-// TODO
+fun finalGrade(a1: Double, a2: Double): Double = (a1 * 0.3) + (a2 * 0.7)
 
 /* ▷ Write another function to calculate the final module grade from your raw
  * marks and the maximum mark for each assessment (as opposed to %’s).
