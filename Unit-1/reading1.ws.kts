@@ -211,7 +211,7 @@ pythag2(3.0,4.0)
  * final grade = [% score for A1] x [weighting of A1] + [% score for A2] x [weighting of A2]
  *
  * Assume the "% scores" are between 0 and 100.
- * Assume the "weightings" are between 0 and 1, and add to 1 in total, e.g.,
+ * Assume the "weightings" are between 0 and 1, and add to 1 in total, e.g., 
  * 0.3 + 0.7 = 1.
  *
  * ▷ In your worksheet, write and test a function that takes the parameters and
@@ -226,7 +226,8 @@ fun finalGrade(a1: Double, a2: Double): Double = (a1 * 0.3) + (a2 * 0.7)
  * work from above.
  */
 
-// TODO
+
+
 
 /* End Ex. 4.1
  *************/
