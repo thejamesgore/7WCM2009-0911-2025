@@ -27,10 +27,8 @@ Int.MAX_VALUE
  * write this code.
  */
 
-fun main() {
-    println("Escape sequences include tab \"\\t\", line break \"\\n\", double quotes \"\\\"\" and backslash itself \"\\\\\".")
-}
-main()
+
+println("Escape sequences include tab \"\\t\", line break \"\\n\", double quotes \"\\\"\" and backslash itself \"\\\\\".")
 
 fun anotherMain(): Unit = println("Hello, Kotlin world!")
 
@@ -45,7 +43,7 @@ fun anotherMain(): Unit = println("Hello, Kotlin world!")
  *    still works as before.
  */
 
-// TODO
+// fun main()
 
 /*
  * 2. ▷ Considering either of the above versions of `main`, what do you think
@@ -58,6 +56,9 @@ fun anotherMain(): Unit = println("Hello, Kotlin world!")
 /* End Ex. 1.3
  *************/
 
+// fun checkString(): Double = 1.0 + 2.0 + 3.0
+
+// checkString()
 
 /******************************************************************************
  * Ex. 1.4 💻
@@ -68,7 +69,19 @@ fun anotherMain(): Unit = println("Hello, Kotlin world!")
  *             314.0     "314".0     0.0     true     x
  */
 
-// TODO
+fun checkTypes(){
+    val string = " "
+    val integer = -314
+    val aString = "A String."
+    val notAString = "Not a tring."
+    val double = -3.14
+    val numString = "0.0"
+    val aDouble = 314.0
+    // val anotherString = "314".0
+    val anotherDouble = 0.0
+    val bool = true
+    val anotherval = "x"
+}
 
 /* End Ex. 1.4
  *************/
@@ -84,7 +97,7 @@ fun anotherMain(): Unit = println("Hello, Kotlin world!")
  * concatenation when working with strings.
  */
 
-// TODO
+
 
 /* End Ex. 2.1
  *************/
@@ -99,7 +112,12 @@ fun anotherMain(): Unit = println("Hello, Kotlin world!")
  * 💻   ▷ Then write them in your worksheet to check your answers.
  */
 
-// TODO
+// 1 + 2 +3 == 6 // true
+// (1 + 1) >= 2 / true
+
+// !(true || false) && (1 > 0) // false
+
+
 
 /* End Ex. 2.3
  *************/
@@ -111,7 +129,8 @@ fun anotherMain(): Unit = println("Hello, Kotlin world!")
  * Use the worksheet to test your answers
  */
 
-// TODO
+// 1 != 2
+// "a" != "b"
 
 /* End Ex. 2.3
  *************/
@@ -125,7 +144,11 @@ fun anotherMain(): Unit = println("Hello, Kotlin world!")
  * [see the reading]
  */
 
-// TODO
+
+x.toInt()
+x.toDouble()
+x.toString()
+x.toBoolean()
 
 /* End Ex. 2.4
  *************/
