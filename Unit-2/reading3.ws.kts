@@ -309,7 +309,18 @@ fun threeSevenFor(x: Int, y: Int): Int {
  * ▷ Write an equivalent while loop (with extra code as needed).
  */
 
-// TODO
+
+fun threeEight(c: String) {
+    var x: Int = 0
+    while(x < c.length){
+        println(c[x])
+        x++
+    }
+}
+
+threeEight("abcdef")
+
+
 
 /* End Ex. 3.8
  *************/
@@ -328,7 +339,23 @@ fun threeSevenFor(x: Int, y: Int): Int {
  * “temporary” result that you update in each loop iteration by an assignment.
  */
 
-// TODO
+
+fun fact(n: Int): Int {
+    var i = n
+    var result = 1
+    while(i > 1) {
+        result *= i
+        i--
+    }
+    return result
+}
+
+
+// fun factFor(n: Int): Int {
+//     for(i 1..n){
+
+//     }
+// }
 
 /* End Ex. 3.9
  *************/
@@ -344,7 +371,17 @@ fun threeSevenFor(x: Int, y: Int): Int {
  * ▷ Describe what this function does in a sentence or two.
  */
 
-// TODO
+
+fun foo(x:Int, y:Int): Unit {
+    for(i:Int in 0..x){
+        for(j:Int in 0..y){
+            println("($i, $j)")
+        }
+    }
+}
+
+foo(0,3)
+
 
 /* End Ex. 4.2
  *************/
