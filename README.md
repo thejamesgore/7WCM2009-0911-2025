@@ -1,6 +1,6 @@
 Hey there!
 
-# Kotlin Exam Cheat Sheet (`kotlin.md`)
+# Kotlin (`kotlin.md`)
 
 > A compact, exam-ready reference covering functions, types, control flow, arrays/strings, errors/testing, classes/OOP, and design patterns from your readings.
 
